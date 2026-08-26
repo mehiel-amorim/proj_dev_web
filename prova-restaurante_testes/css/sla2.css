@@ -1,0 +1,240 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+html{
+    font-size: clamp(1rem, 1vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+
+/* ==== FORMATAÇÃO GERAL === */
+
+/* ==== Header === */
+
+header{
+    text-align: center;
+    padding: 4vw;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+header ul{
+    padding: 2vw 2vw 3vw 2vw;
+}
+header ul li {
+    padding: 4px;
+}
+
+header .button-contact{
+    background-color: #FFD40D;
+    color: #ffffff;
+    padding: 2.5vw 6vw;
+    border-radius: 7px;
+    font-size: 0.7rem;
+}
+
+header .button-contact:hover{
+    background-color: white;
+    color: #FFD40D;
+    border: 2px solid #FFD40D;
+}
+
+header ul li a:hover{
+    color: #FFD40D;
+}
+
+/* ==== banner === */
+
+section#banner{
+    text-align: center;
+    padding: 4vw;
+    background-color: rgb(255, 226, 226);
+}
+
+section#banner h2{
+    font-size: 1.6rem;
+    padding: 2vw 0 2vw 0;
+    font-weight: bold;
+}
+
+section#banner p{
+    font-size: 0.7rem;
+    padding: 1vw 0vw 3vw 0vw;
+}
+
+section#banner a{
+    background-color: #ED274B;
+    color: #ffffff;
+    padding: 1.5vw 5vw;
+    border-radius: 4vw;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+section#banner a:hover{
+    background-color: rgb(255, 226, 226);
+    color: #ED274B;
+    border: 1px solid #ED274B;
+}
+section#banner img{
+    padding: 2vw;
+}
+
+/* ==== Menu === */
+
+section#menu{
+    text-align: center;
+    padding: 4vw;
+    background-color: #eaedf1;
+}
+
+section#menu h2{
+    color: #00A149;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px;
+}
+
+section#menu h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1vw 1vw 3vw 1vw;
+}
+
+section#menu ul{
+    padding: 4vw;
+
+    li{
+        background-color: white;
+        margin: 4vw 18%;
+        padding: 3vw 0 4vw 0;
+    }
+
+    h4 span{
+        border-bottom: 2px solid #FFD40D;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    p{
+        color: #FFD40D;
+        padding: 5px;
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+}
+
+/* ==== Social media === */
+
+section#instagram{
+    text-align: center;
+    padding: 4vw;
+}
+section#instagram h2{
+    padding: 2vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section#instagram p{
+    font-size: 0.8rem;
+    color: rgb(80, 80, 80);
+    padding: 0 0 4vw 0;
+}
+
+section#instagram ul li{
+    padding: 1vw 3vw 1vw 3vw;
+}
+
+/* ==== Footer === */
+
+footer{
+    background-color: #d3d6db;
+    padding: 4vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+footer p span{
+    color: #ED274B;
+}
+
+
+
+
+
+
+@media  screen and (min-width: 600px){
+    /* ==== header === */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    font-size: 0.7rem;
+    padding: 2vw 8vw;
+}
+header nav  {
+    display: flex;
+    gap: 15px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    padding:  0 15px 0 15px;
+}
+
+ /* ==== banner === */
+
+section#banner{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 4vw 8vw;
+}
+
+section#banner img{
+    width: 1500px;
+}
+
+/* ==== Menu === */
+
+section#menu{
+    text-align: left;
+    padding: 4vw 8vw;
+}
+
+section#menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding: 7vw;
+}
+
+section#menu ul li{
+    border-radius: 2vw;
+    width: 250px;
+    margin: 0;
+    padding: 2vw 1vw 1vw 1vw;
+    text-align: center;
+}
+
+/* ==== social media === */
+
+section#instagram ul{
+    display: flex;
+}
+section#instagram ul li img{
+    width: 100%;
+}
+
+footer{
+    text-align: left;
+    padding: 10vw 8vw;
+}
+}
