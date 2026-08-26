@@ -1,0 +1,217 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*==Header==*/
+header{
+  text-align: center;
+  padding: 3vw 0 3vw 0;
+}
+header nav ul li{
+ padding: 2vw 0 2vw 0;
+ color: #c5c5c5;
+}
+
+/*===Banner*/
+section#banner{
+  padding: 3vw 10vw 0vw 10vw;
+}
+section#banner h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+section#banner h2 span{
+  color: #458FF6;
+}
+section#banner p{
+  color: #7D7987;
+  padding: 2vw 0 2vw 0;
+  font-size: 0.9rem;
+}
+section#banner p a{
+  border: solid #458FF6 ;
+  color: white;
+  background-color: #458FF6;
+  padding: 6px 20px 6px 20px;
+  border-radius: 8vw;
+}
+section.banner p a:hover{
+  background-color: white;
+  color: #458FF6;
+}
+
+/*===Main===*/
+section#Cuidados{
+  text-align: center;
+  padding: 7vw 10vw 3vw 10vw;
+}
+
+section#Cuidados h2{
+  padding: 0 0 2vw 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+ 
+}
+section#Cuidados h2 span{
+  border-bottom: 2px solid black;
+  padding: 0 9vw 2vw 9vw;
+  display: inline-block;
+}
+
+section#Cuidados p{
+  color: #7D7987;
+  padding: 3vw 6vw 1vw 0vw;
+  font-size: 0.9rem;
+}
+
+section#Cuidados ul li{
+  border: 2px solid #d8d4e2;
+  border-radius: 15px;
+  padding: 15px 15px;
+  margin: 3vw 10vw;
+  text-align: left;
+}
+section#Cuidados p a {
+  border: 2px solid  #458FF6;
+  border-radius: 20vw;
+  padding: 10px 30px;
+  color: #458FF6;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+section.Cuidados p a:hover{ 
+  background-color: #458FF6;
+  color: white;
+}
+
+/*===Depoimentos===*/
+
+section#depoimentos {
+  background-color: #458FF6;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin: 12px 12px;
+  padding: 10vw 5vw;
+}
+section#depoimentos h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0 5vw 0;
+}
+section#depoimentos h2 span{
+  border-bottom : 2px solid white;
+  padding: 0 0vw 17px 0vw;
+   margin-bottom: 6.7vw;
+}
+section#depoimentos p {
+  padding: 5vw 
+}
+
+/*===Footer===*/
+
+footer{
+  background-color: #458FF6;
+  color: white;
+  padding: 3vw 4vw;
+  text-align: center;
+}
+footer h2{
+  font-weight: bold;
+  padding: 1vw 0 1vw 0;
+  font-size: 1.1rem;
+}
+footer p{
+  font-size: 0.9rem;
+  padding: 1vw;
+}
+footer a{
+  font-size: 0.9rem;
+  padding: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 5vw 3vw 8vw;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 0.7em;
+  padding: 0vw 8vw 0 12vw;
+}
+header nav li {
+  margin: 0vw 2vw 0 2vw;
+}
+header nav ul li:hover{
+  color: black;
+}
+/*===Banner===*/
+section#banner{
+  padding: 3vw 11vw 0vw 10vw;
+  display: flex;
+  gap: 1vw;
+}
+/*===Main===*/
+
+section#Cuidados ul{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  gap: 2vw;
+}
+section#Cuidados ul li{
+  margin: 0;
+  width: 30%;
+  padding: 3vw 2vw;
+}
+section#Cuidados ul li p {
+  font-size: 0.7rem;
+  padding: 1vw 0 0 0;
+}
+section#Cuidados ul li h3 {
+  padding: 2vw 0;
+}
+
+/*===Depoimentos===*/
+section#depoimentos{
+  padding: 5vw 10vw 0 10vw;
+  margin: 10vw 10vw;
+}
+
+section#depoimentos div{
+  display: flex;
+  text-align: left;
+  gap: 20px;
+}
+section#depoimentos div p img{
+  width: 40vw;
+}
+/*===Footer===*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 5px;
+}
+
+footer p {
+  padding: 3vw 3vw;
+  font-size: 0.9rem;
+}
+footer ul  {
+  padding: 3vw 3vw;
+}
+footer ul li {
+  padding: 5px;
+}
+
+}
+ 
