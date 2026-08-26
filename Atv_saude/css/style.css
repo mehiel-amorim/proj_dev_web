@@ -9,8 +9,8 @@ header{
   padding: 3vw 0 3vw 0;
 }
 header nav ul li{
- padding: 2vw 0 2vw 0;
- color: #c5c5c5;
+  padding: 2vw 0 2vw 0;
+  color: #c5c5c5;
 }
 
 /*===Banner*/
@@ -30,15 +30,16 @@ section#banner p{
   font-size: 0.9rem;
 }
 section#banner p a{
-  border: solid #458FF6 ;
+  border: 2px solid #458FF6 ;
   color: white;
   background-color: #458FF6;
-  padding: 6px 20px 6px 20px;
+  padding: 8px 20px 8px 20px;
   border-radius: 8vw;
+  font-size: 1rem;
 }
-section.banner p a:hover{
+section#banner p a:hover{
   background-color: white;
-  color: #458FF6;
+  color: #609bee;
 }
 
 /*===Main===*/
@@ -51,7 +52,7 @@ section#Cuidados h2{
   padding: 0 0 2vw 0;
   font-size: 1.5rem;
   font-weight: bold;
- 
+
 }
 section#Cuidados h2 span{
   border-bottom: 2px solid black;
@@ -81,7 +82,7 @@ section#Cuidados p a {
   margin: 10px 10px;
 }
 
-section.Cuidados p a:hover{ 
+section#Cuidados p a:hover{ 
   background-color: #458FF6;
   color: white;
 }

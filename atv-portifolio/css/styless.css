@@ -1,0 +1,140 @@
+/* == CSS global == */
+html {
+  font-size: clamp(1rem, calc(0.5rem + 2vw), 3rem);
+  font-family: "Heebo", sans-serif;
+}
+
+/* == Header == */
+
+header nav ul li {
+  text-align: center;
+  padding: 7vw 0 0vw 0;
+}
+/* == Banner == */
+section.banner {
+  text-align: center;
+  padding: 10vw 3vw 10vw 3vw;
+}
+
+section.banner h1 {
+  font-size: 2rem;
+}
+
+section.banner p a {
+  background: #ff6464;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+section.banner p {
+  margin: 5vw 0vw 5vw 0vw;
+}
+
+section.rc-posts {
+  background: #edf7fa;
+  padding: 8vw 5vw 8vw 5vw;
+}
+
+section.rc-posts h2 {
+  text-align: center;
+  font-size: 1.09rem;
+  padding: 0 0 4vw 0;
+}
+
+section.rc-posts ul li {
+  background-color: white;
+  margin: 3vw 0 3vw 0;
+  padding: 7.5vw 5vw 7.5vw 5vw;
+  border-radius: 4px;
+}
+
+section.rc-posts ul li h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+section.rc-posts ul li p {
+  padding: 5vw 0 0 0;
+  line-height: 1.4rem;
+}
+
+section.ft-works h2 {
+  text-align: center;
+  font-size: 1.09rem;
+  padding: 6vw 0 6vw 0;
+}
+section.ft-works ul li {
+  padding: 6vw 3vw 6vw 3vw;
+}
+section.ft-works ul li img {
+  width: 100%;
+}
+section.ft-works ul li h3 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  padding: 5vw 0 5vw 0;
+}
+section.ft-works p.categorias {
+  color: rgb(207, 206, 206);
+}
+section.ft-works p.categorias span {
+  background: #21243d;
+  color: white;
+  padding: 3px 15px 3px 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+
+footer{
+  text-align: center;
+}
+footer img{
+  margin: 18px;
+  width: 30px;
+}
+footer p {
+  text-align: center;
+  padding: 0 5vw 0 5vw;
+  font-size: 0.9rem;
+  color: #21243D;
+}
+section.works h1{
+    font-size: 2.4rem;
+    margin: 0 4vw 0 4vw;
+    padding:6vw 2vw 6vw 2vw;
+}
+section.works h2{
+  font-size: 1.8rem;
+  margin: 0 4vw 0 4vw;
+  padding: 0 2vw 0 2vw;
+  letter-spacing: 1px;
+}
+section.works p.featured  span.number {
+  background:#FF6464;
+  color: white;
+  padding: 1px 15px 1px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 20px 12px 7px 19px;
+  font-size: 1.1rem;
+}
+section.works p.featured  span.text {
+  font-size: 20px;
+  
+}
+section.Amet ul li {
+  padding: 6vw 4vw 6vw 4vw;
+}
+section.Amet ul li p {
+  margin: 20px 0px 20px 0px;
+}
+section.Amet ul li img {
+  width: 100%;
+}
+section.Amet ul li h2 {
+  text-align: left;
+  font-size: 1.5rem
+  
+}
