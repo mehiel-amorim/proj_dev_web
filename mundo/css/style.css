@@ -1,0 +1,288 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem); 
+    font-family: "Urbanist", sans-serif; 
+}
+/* ==== FORMATAÇÃO GERAL === */
+
+/* ==== Header === */
+header{
+    text-align: center;
+    padding: 4vw;
+    
+    ul{
+        padding: 2vw;
+    }
+    li{
+        padding: 5px;
+        font-size: 0.6rem;
+    }
+
+    a:hover{
+        color: rgb(94, 94, 94);
+    }
+}
+
+
+/* ==== Banner === */
+
+section#banner{
+    background-color: #dadada;
+    text-align: center;
+
+    margin:4vw 4vw 0 4vw ;
+    padding: 4vw;
+    border-radius: 3vw;
+    
+
+    h2{
+        color: rgb(51, 51, 51);
+
+        padding: 1vw 1vw 5px 1vw ;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    p{
+        color: rgb(110, 110, 110);
+
+        font-size: 0.6rem;
+        padding: 2vw 8vw 3vw 8vw ;
+    }
+
+    a{
+        background-color: #EF3F6E;
+        color: #ffffff;
+
+        font-size: 0.6rem;
+        padding: 1.5vw 3vw;
+        border-radius: 1vw;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color: #e6537a;
+    }
+    img{
+        padding: 8vw 0 6vw 0;
+    }
+}
+section#banner h2 span{
+    color: #EF3F6E;
+}
+
+/* ==== projects === */
+
+section#projects{
+    text-align: center;
+    padding: 4vw;
+
+    h2{
+        padding: 2vw;
+        color: rgb(26, 31, 51);
+        
+    }
+}
+
+section#projects ul{
+    padding: 4vw;
+
+    li{
+        padding: 2vw;
+    }
+
+    h3{
+        font-size: 0.8rem;
+        padding: 2vw;
+        color: rgb(54, 54, 54);
+    }
+
+    p{
+        font-size: 0.6rem;
+        color: rgb(160, 160, 160);
+    }
+}
+
+/* ==== Community === */
+
+section#community{
+    background-color: #fde3fb;
+
+    padding: 5vw 6vw 7vw 6vw;
+    margin: 4vw;
+    border-radius: 3vw;
+    text-align: center;
+
+    h2{
+        color: #EF3F6E;
+
+        font-size: 0.5rem;
+        padding: 2vw;
+    }
+
+    h3{
+        font-size: 0.9rem;
+        padding: 0 8vw 2vw 8vw;
+        color: rgb(65, 65, 65);
+    }
+
+    a{
+        background-color: #fc56a3;
+        color: #ffffff;
+        font-weight: bold;
+
+        font-size: 0.5rem;
+        padding: 1.5vw 3vw;
+        border-radius: 1vw;
+    }
+
+    a:hover{
+        background-color: #fa75b3;
+    }
+}
+
+section#community h3 span{
+    color: #EF3F6E;
+}
+
+/* ==== Footer === */
+
+footer{
+    text-align: center;
+    padding: 6vw;
+
+    .logo{
+        width: 100px;
+    }
+
+    p{
+        font-size: 0.6rem;
+        padding: 1vw;
+    }
+
+    .social-media{
+        padding: 5px;
+    }
+}
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+/* ==== Header === */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 4vw 0 4vw;
+    
+    img{
+        width: 100%;
+        padding: 3vw 2vw 0 2vw;
+    }
+    ul{
+        display: flex;
+    }
+
+    li{
+        padding: 1vw;
+        font-size: 0.5rem;
+    }
+}
+
+/* ==== banner === */
+
+section#banner{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 2vw 5vw;
+
+    h2{
+        font-size: 1rem;
+    }
+
+    p{
+        padding: 2vw 1vw 3vw;
+        font-size: 0.5rem;
+    }
+    a{
+        font-size: 0.5rem;
+    }
+    img{
+        width: 900px;
+        padding: 4vw 4vw 0 0;
+    }
+    div{
+        padding: 2vw;
+    }
+    
+}
+/* ==== projects === */
+
+section#projects{
+    h2{
+        padding: 4vw 22vw 2vw 22vw;
+        font-size: 0.9rem;
+    }
+    ul{
+        display: flex;
+        padding: 2vw 6vw;
+    }
+    li{
+        text-align: left;
+        width: 75;
+    }
+    
+    li h3{
+        padding: 6px 5px 10px 2px;
+        font-size:0.5rem;
+    }
+
+    li p{
+        font-size: 0.4rem;
+        padding: 2px 5px 0 25px;
+    }
+
+    img{
+        width: 2000px;
+    }
+}
+
+/* ==== community === */
+
+section#community{
+   padding: 7vw 7vw 8vw 7vw;
+
+
+   h3{
+    font-size: 0.9rem;
+    padding: 0 18vw 3vw 18vw;
+   }
+}
+
+footer{
+    .logo{
+        width: 175px;
+    }
+
+    p{
+        font-size: 0.4rem;
+        padding: 10px 0 0 0;
+    }
+
+    .social-media{
+        padding: 6px;
+    }
+}
+}
